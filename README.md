@@ -12,3 +12,5 @@ build w/ ``dotnet publish -c Release -r win-x64 -p:PublishSingleFile=true`` for 
  ``dotnet publish -c Release -r linux-x64 -p:PublishSingleFile=true`` for linux,  
  ``dotnet publish -c Release -r osx-x64 -p:PublishSingleFile=true``  for intel macs  
 and ``dotnet publish -c Release -r osx-arm64 -p:PublishSingleFile=true`` for sillicon macs/ m1 to m3
+
+##### to use it like dice roll blah blah in the terminal/powershell/whatever you need to add it to path, for windows you add the folder where the exe is to path and same for linux distros/mac

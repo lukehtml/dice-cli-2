@@ -14,6 +14,11 @@
                 {
                     case "roll":
                     {
+                            if (args.Length < 2)
+                            {
+                            Console.WriteLine("Usage: dice roll NdM (example: dice roll 2d6)");
+                            break;
+                            }
                         string[] ndmNotation = args[1].Split("d");
                         int times = int.Parse(ndmNotation[0]);
                         int total = 0;
@@ -56,3 +61,4 @@
     }
 
 }
+

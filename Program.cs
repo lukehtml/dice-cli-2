@@ -7,7 +7,6 @@
             Random rand = new Random();
             if (args.Length == 0)
             {
-                Console.Beep();
                 Console.WriteLine("Please input something.");
             }
             else {
@@ -55,4 +54,5 @@
             }
         }
     }
+
 }

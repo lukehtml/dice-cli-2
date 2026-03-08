@@ -4,7 +4,7 @@
 # How to Build/Use  
 ### Prerequisites
 1. git  
-2. .NET sdk  
+2. .NET i think probably i dont know 
 3. I dont know if this works on linux so ill test this later cause my laptop isnt working  
 clone this repo w/ ``git clone https://github.com/lukehtml/dice-cli-2.git``  
 cd into the directory w/ ``cd dice-cli-2``  

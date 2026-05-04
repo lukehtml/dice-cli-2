@@ -14,3 +14,7 @@ build w/ ``dotnet publish -c Release -r win-x64 -p:PublishSingleFile=true`` for 
 and ``dotnet publish -c Release -r osx-arm64 -p:PublishSingleFile=true`` for sillicon macs/ m1 to m3
 
 ##### to use it like dice roll blah blah in the terminal/powershell/whatever you need to add it to path, for windows you add the folder where the exe is to path and same for linux distros/mac
+
+
+### instructions for moving to path on linux 
+`sudo mv <executable-directory> /usr/local/bin`
